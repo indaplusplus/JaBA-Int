@@ -9,7 +9,6 @@ import java.util.Stack;
 public class Interpreter {
 
   public final HashMap<String, Integer> variables = new HashMap<>();
-  public final Stack<Integer> stack = new Stack<>();
 
   private Code code;
 

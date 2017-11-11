@@ -14,5 +14,6 @@ public class StatementPrint extends Statement {
     for (Expression expression : expressions) {
       System.out.print(expression.evaluate());
     }
+    System.out.println();
   }
 }

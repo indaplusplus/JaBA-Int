@@ -14,6 +14,7 @@ public class Main {
     code.insertLine("40 LET A = A + 1");
     code.insertLine("50 RETURN");
     code.insertLine("60 PRINT A");
+    code.insertLine("65 PRINT A");
     code.insertLine("70 END");
 
 //    code.insertLine("05 LET A = 5");

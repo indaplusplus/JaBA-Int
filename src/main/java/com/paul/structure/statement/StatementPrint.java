@@ -12,7 +12,7 @@ public class StatementPrint extends Statement {
   @Override
   public void execute() {
     for (Expression expression : expressions) {
-      System.out.println(expression.evaluate());
+      System.out.print(expression.evaluate());
     }
   }
 }

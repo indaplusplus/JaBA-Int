@@ -9,10 +9,10 @@ public class Main {
     Code code = new Code();
 
     code.insertLine("10 INPUT A");
-    code.insertLine("20 GOSUB 40");
-    code.insertLine("30 LET A = A * 2");
-    code.insertLine("40 LET A = A + 1");
-    code.insertLine("50 RETURN");
+    code.insertLine("20 IF A > 5 THEN GOTO 65");
+//    code.insertLine("30 LET A = A * 2");
+//    code.insertLine("40 LET A = A + 1");
+//    code.insertLine("50 RETURN");
     code.insertLine("60 PRINT A");
     code.insertLine("65 PRINT A");
     code.insertLine("70 END");
